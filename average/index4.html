@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var totalNum = Number(prompt('숫자의 개수를 입력하세요'));
+
+        var sum = 0;
+
+        var i = 1;
+        while (Number(i) <= totalNum ) {
+            sum  += Number(prompt(i + '번째 숫자의 값을 입력하세요'));
+            i += 1;
+        }
+
+        var avg = sum / totalNum;
+
+        alert('평균: ' + avg);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

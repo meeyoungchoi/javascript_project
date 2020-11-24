@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //반복문(for문)을 사용하여 숫자 10개의 합 구하기
+
+        //총합을 저장하기 위한 변수
+        var sum = 0;
+        
+        var totalNums = Number(prompt('숫자의 개수를 입력하세요:'));
+
+        for (var i = 1; i <= totalNums; i++) {
+             var num  = prompt(i + '번째 숫자를 입력하세요');
+             sum += Number(num);
+        }
+
+        //평균값을 저장하기 위한 변수
+        var avg = sum / totalNums;
+
+        //평균값을 경고창을 통해 출력
+        alert('총합의 평균 ' + avg);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
