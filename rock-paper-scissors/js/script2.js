@@ -8,14 +8,15 @@ while (true) {
     var SCISSORS = '가위';
     var ROCK = '바위';
     var PAPER = '보';
+    var STATUS = '종료';
 
 
     var myInput = prompt('가위, 바위, 보 , 종료');
 
-    if (myInput !== SCISSORS && myInput !== ROCK && myInput !== PAPER && myInput !== '종료') {
+    if (myInput !== SCISSORS && myInput !== ROCK && myInput !== PAPER && myInput !== STATUS) {
         alert('가위, 바위, 보, 종료 중에서 입력하세요');
     } else {
-        if (myInput === '종료') {
+        if (myInput === STATUS) {
             alert('내가 이긴횟수: ' +  myWin + '회 , 컴퓨터가 이긴횟수: ' +  comWin + '회 게임 종료');
             break;
         }

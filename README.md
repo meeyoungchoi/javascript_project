@@ -52,3 +52,5 @@
   + 가위 바위 보 게임 로직 추가(rock-paper-scissors / script2.js)
   > 게임종료시 내가 이긴 횟수와 컴퓨터가 이긴횟수 출력후 게임 종료
 
+  + 가위 바위 보 게임 로직 변경(rock-paper-scissors / script3.js)
+  > if문을 switch 문으로 변경

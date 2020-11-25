@@ -1,11 +1,11 @@
 while (true) {
     var userInput = prompt('가위, 바위, 보! , 종료: -1');
 
-    if (userInput !== '가위' && userInput !== '바위' && userInput !== '보' && Number(userInput) !== -1) {
+    if (userInput !== '가위' && userInput !== '바위' && userInput !== '보' && userInput !== '-1') {
         alert('가위, 바위, 보 중 하나를 입력해야 합니다');
     } else {
 
-        if (Number(userInput) == -1) {
+        if (userInput == '-1') {
             alert('게임종료');
             break;
         }
