@@ -71,7 +71,7 @@ while (true) {
                 }
                 break;
 
-            case PAPER:
+            default:
                 switch(comInput) {
                     case PAPER:
                         alert('내 패: ' + myInput + ', 컴퓨터 패: ' + comInput + ' - 비겼습니다.');
